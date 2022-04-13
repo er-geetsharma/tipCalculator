@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+       <div class="header">
+           <h2>TIP CALCULATOR</h2>
+       </div>
+       <div class="warning" id="warning"></div>
+       <h2>How Much Was Your Bill ??</h2><br>
+        <span id="dollar">$</span><input type="number" class="bill" id="bill"><br>
+       <h2>How Many People Sharing The Bill??</h2>
+       <input type="number" class="people" id="people"><br>
+       <h2>How Was Our Service ??</h2>
+      <select name="service" id="service" class="service">
+          <option value="1 star">1 star</option>
+          <option value="2 star">2 star</option>
+          <option value="3 star">3 star</option>
+          <option value="4 star">4 star</option>
+          <option selected value="5 star">5 star</option>
+      </select>
+      <button name="btn" id="calculate" class="calculate" disabled='true'>Calculate</button><br>
+       <div class="footer"><br>
+            <sup>$</sup><span id="tip">0.00</span>
+       <p id="each">each</p>
+       
+       </div>
+       
+   </div>
+    
+</body>
+<script src="index.js"></script>
+</html>

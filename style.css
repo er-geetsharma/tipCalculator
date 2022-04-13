@@ -1,0 +1,64 @@
+body{
+    background-color:darksalmon;
+    margin-left: 300px;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.container{
+    background-color: white;
+    height: 600px;
+    width: 800px;
+}
+.header{
+    background-color: lightcoral;
+    height: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.service{
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+h2{
+    margin-left: 10px;
+}
+.calculate{
+    margin-left: 10px;
+    width: 400px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: bisque;
+}
+#dollar{
+    margin-left: 5px;
+    
+}
+
+.footer{
+   text-align: center;
+    font-size: 20px;
+}
+#tip{
+    padding-left: 10px;
+    font-size: 30px;
+}
+#each{
+    margin-top: 10px;    
+}
+#warning{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+}
